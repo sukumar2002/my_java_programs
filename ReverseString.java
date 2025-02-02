@@ -13,7 +13,6 @@ public class ReverseString {
 
     }
 
-
     public static void main(String[] args) {
         try {
             String str = "q123 s daad s".trim();
