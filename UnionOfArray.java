@@ -13,7 +13,6 @@ public class UnionOfArray {
               set.add(nu);
             }
        return set.stream().mapToInt(Integer::intValue).toArray();
-
     }
     public static void main(String[] args) {
         int[] arr1={3,58,101,4,83,2};
