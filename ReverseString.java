@@ -1,7 +1,6 @@
 public class ReverseString {
 
     public static String reverse(String str) {
-
         if (str == null || str.isBlank()) {
             throw new IllegalArgumentException("String is empty");
         }
@@ -10,7 +9,6 @@ public class ReverseString {
             reversed.append(str.charAt(i));
         }
         return reversed.toString();
-
     }
 
     public static void main(String[] args) {
