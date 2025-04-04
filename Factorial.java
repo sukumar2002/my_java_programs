@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Factorial
-{
+public class Factorial{
     public static int findFact(int num) {
         int sum=1;
          for(int i=num;i>=1;i--) {

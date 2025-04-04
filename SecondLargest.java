@@ -5,7 +5,6 @@ public class SecondLargest {
         }
 
         int first = Integer.MIN_VALUE, second = Integer.MIN_VALUE;
-
         for (int num : arr) {
             if (num > first) {
                 second = first; // Update second largest
@@ -18,7 +17,6 @@ public class SecondLargest {
         if (second == Integer.MIN_VALUE) {
             throw new IllegalArgumentException("No second largest element found.");
         }
-
         return second;
     }
 
