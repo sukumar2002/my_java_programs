@@ -19,5 +19,4 @@ public class ToggleCase {
             System.out.println("Original: " + input);
             System.out.println("Toggled: " + toggled);
         }
-
     }
