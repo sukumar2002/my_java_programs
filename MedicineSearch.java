@@ -22,7 +22,6 @@ public class MedicineSearch {
             else
                 high = mid - 1;
         }
-
         return -1;
     }
 
