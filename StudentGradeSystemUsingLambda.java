@@ -6,15 +6,13 @@ public class StudentGradeSystemUsingLambda {
 
         int total = 0;
         int subjects = 5;
-
         System.out.println("Enter marks for " + subjects + " subjects:");
-
         for (int i = 1; i <= subjects; i++) {
             System.out.print("Subject " + i + ": ");
             int marks = scanner.nextInt();
             total += marks;
         }
-
+        
         double average = total / (double) subjects;
 
         // Lambda to calculate grade based on average
@@ -28,7 +26,6 @@ public class StudentGradeSystemUsingLambda {
 
         System.out.println("Average Marks: " + average);
         System.out.println("Final Grade: " + s.calculateGrade(average));
-
         scanner.close();
     }
 }

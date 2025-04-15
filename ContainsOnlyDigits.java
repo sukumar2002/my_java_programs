@@ -12,6 +12,5 @@ public class ContainsOnlyDigits {
     public static void main(String[] args) {
         String str="aa";
         System.out.println(ContainsOnlyDigits.onlyDigits(str));
-
     }
 }

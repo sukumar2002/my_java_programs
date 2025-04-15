@@ -21,7 +21,6 @@ public class SortingUsingLambdas {
             }
             return sortedList;
         };
-
         int[] arr = {12, 1, 6, 32, 1348, 91, 231};
         System.out.println(sorting.sort(arr));
     }
