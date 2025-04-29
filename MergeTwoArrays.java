@@ -18,6 +18,5 @@ public class MergeTwoArrays {
         int[] arr2={6,1,95,2};
         int[] res=merge(arr1,arr2);
         System.out.println(Arrays.toString(res));
-
     }
 }
