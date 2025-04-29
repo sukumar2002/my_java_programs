@@ -11,7 +11,6 @@ public class StringCompression {
                 count = 1; // reset count
             }
         }
-
         // Append the last character and its count
         result.append(input.charAt(input.length() - 1)).append(count);
 
