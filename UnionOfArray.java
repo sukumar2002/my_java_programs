@@ -8,7 +8,6 @@ public class UnionOfArray {
         for(int n:a1){
             set.add(n);
         }
-
         for(int nu:a2){
               set.add(nu);
             }
