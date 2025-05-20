@@ -1,5 +1,4 @@
 //ArmStrongNumber Program
-
 import java.util.Scanner;
 
 public class ArmStrongNumber{

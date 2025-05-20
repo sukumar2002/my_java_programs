@@ -18,6 +18,5 @@ public class InsertAnElementInArray {
         for(int num:updatedArr){
             System.out.print(num+" ");
         }
-
     }
 }
