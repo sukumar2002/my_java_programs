@@ -3,7 +3,6 @@ public class FloydsTrianglePatteren {
         int i,j;
         for(i=1;i<=5;i++) {
             int count=i;
-
             for(int s=0;s>5;s++) {
                 System.out.print("  ");
             }
