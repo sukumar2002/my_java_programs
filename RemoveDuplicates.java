@@ -17,7 +17,6 @@ public class RemoveDuplicates {
     public static void main(String[] args) {
         int[] arr = {1, 1, 3, 3, 4, 5, 5, 6, 8, 9}; // Sorted input
         int newLength = removeDuplicates(arr);
-
         System.out.println("Array after removing duplicates: " + Arrays.toString(Arrays.copyOf(arr, newLength)));
     }
 }
