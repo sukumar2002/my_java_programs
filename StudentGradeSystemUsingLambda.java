@@ -29,7 +29,6 @@ public class StudentGradeSystemUsingLambda {
         scanner.close();
     }
 }
-
 @FunctionalInterface
 interface StudentMarks {
     String calculateGrade(double averageMarks);

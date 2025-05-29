@@ -7,16 +7,15 @@ public class RemoveCharacters {
 
         for(int i = 0; i < ch1.length; i++) {
             boolean isToRemove = false;
-
+            
             for(int j = 0; j < ch2.length; j++) {
                 if (ch1[i] == ch2[j]) {
                     isToRemove = true;
                     break;
                 }
             }
-            if (!isToRemove) {
-                sb.append(ch1[i]);
-            }
+            if (!isToRemove) 
+                sb.append(ch1[i]);     
         }
         return sb.toString();
     }
