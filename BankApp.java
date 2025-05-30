@@ -16,7 +16,7 @@ class Transaction {
     public String toString() {
         return id + " | " + type + " | " + amount + " | " + date;
     }
-
+    
     public Date getDate() {
         return date;
     }
