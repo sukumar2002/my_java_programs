@@ -8,7 +8,5 @@ public class RightAlignedReverseNumberTriangle {
                 }
             System.out.println();
             }
-
         }
     }
-
