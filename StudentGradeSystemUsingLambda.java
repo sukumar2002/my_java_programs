@@ -14,8 +14,7 @@ public class StudentGradeSystemUsingLambda {
         }
         
         double average = total / (double) subjects;
-
-        // Lambda to calculate grade based on average
+    // Lambda to calculate grade based on average
         StudentMarks s = avg -> {
             if (avg > 90) return "A";
             else if (avg > 70) return "B";
