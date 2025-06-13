@@ -11,8 +11,6 @@ public class CapitalizeEachFirstLetter {
                         .append(" ");
             }
         }
-
         System.out.println(result.toString().trim());
     }
 }
-

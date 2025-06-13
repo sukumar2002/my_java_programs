@@ -5,10 +5,8 @@ public class AlternatingBinaryTrianglePatteren {
                 if((i+j)%2!=0){
                System.out.print(0+" ");}
                 else{System.out.print(1+" ");}
-
             }
             System.out.println();
         }
     }
-
 }
