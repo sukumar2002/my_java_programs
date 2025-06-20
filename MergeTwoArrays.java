@@ -4,14 +4,17 @@ import java.util.List;
 
 public class MergeTwoArrays {
     static int[] merge(int[] a1,int[] a2){
-        List<Integer> list=new ArrayList<>();
-        for(int num:a1){
-            list.add(num);
-        }
-        for(int nu:a2){
-            list.add(nu);
-        }
-        return list.stream().mapToInt(Integer::intValue).toArray();
+        // List<Integer> list=new ArrayList<>();
+        // for(int num:a1){
+        //     list.add(num);
+        // }
+        // for(int nu:a2){
+        //     list.add(nu);
+        // }
+        // return list.stream().mapToInt(Integer::intValue).toArray();
+        int[] result = Arrays.copyOf(a1, a1.length + a2.length);
+		System.arraycopy(a2, 0, result, a1.length, a2.length);
+		return result;
     }
     public static void main(String[] args) {
         int[] arr1={2,4,15,53,6};
