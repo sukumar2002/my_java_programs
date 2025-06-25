@@ -17,7 +17,5 @@ public class CountFrequencyOfElements {
             }
             System.out.println(arr[i] + " => " + count);
         }
-
     }
-
 }
