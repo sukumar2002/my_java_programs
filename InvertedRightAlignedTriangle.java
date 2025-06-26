@@ -9,11 +9,11 @@ public class InvertedRightAlignedTriangle {
             for (int j = 1; j < i; j++) {
                 System.out.print(" ");
             }
-            // Print stars
+           
             for (int k = 1; k <= n - i + 1; k++) {
                 System.out.print("*");
             }
-            // Move to next line
+          
             System.out.println();
         }
     }
